@@ -1,7 +1,6 @@
 import requests
 import time
 import threading
-from functools import lru_cache
 
 class Fetcher:
     def __init__(self, base_url=None, cache_size=10, refetch_interval=None, retry_attempts=3, headers=None):
