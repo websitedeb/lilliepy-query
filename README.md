@@ -7,6 +7,8 @@ this is a sub module for the lilliepy framework to be able to query and cache qu
 * request
 * time
 * threading
+* reactpy
+* asyncio
 
 ## how to use
 

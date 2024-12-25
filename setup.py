@@ -7,6 +7,10 @@ setup(
     name='lilliepy-query',
     version='0.1',
     packages=['lilliepy_query'],
+    install_requires=[
+        'reactpy',
+        'asyncio',
+    ],
     long_description=long_description,
     long_description_content_type='text/markdown',
     classifiers=[
